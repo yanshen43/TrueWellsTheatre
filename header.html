@@ -1,5 +1,3 @@
-<body>
-
 <!--<div id="head2">-->
 <!--<div class="container">-->
 <!--<div class="row">-->
@@ -21,45 +19,45 @@
 
 <!--</div>-->
 
-
-<div id="head2">
-    <img src="images/header-logo.png" class="headerlogo" alt="">
-</div>
-
-
-<div id="navbar2" class="navbar2 navbar-inverse navbar-default">
-    <a href="index.html">主页Home</a>
-    <div class="dropdown2">
-        <button class="dropbtn2">简介About</button>
-        <div class="dropdown2-content">
-            <a href="introduce.html">工作室简介Studio</a>
-            <a href="team.html">团队成员Team</a>
-        </div>
+<div class="sub-header">
+    <div id="head2">
+        <img src="images/header-logo.png" class="headerlogo" alt="">
     </div>
-    <a href="production.html">项目Production</a>
-    <a href="share.html">故事Share</a>
-    <a href="contact.html">联系Contact</a>
-</div>
 
 
-<script>
-    window.onscroll = function () {
-        myFunction()
-    };
+    <div id="navbar2" class="navbar2 navbar-inverse navbar-default">
+        <a href="index.html">主页Home</a>
+        <div class="dropdown2">
+            <button class="dropbtn2">简介About</button>
+            <div class="dropdown2-content">
+                <a href="introduce.html">工作室简介Studio</a>
+                <a href="team.html">团队成员Team</a>
+            </div>
+        </div>
+        <a href="production.html">项目Production</a>
+        <a href="share.html">故事Share</a>
+        <a href="contact.html">联系Contact</a>
+    </div>
 
-    var navbar = document.getElementById("navbar2");
-    var sticky = navbar.offsetTop;
 
-    function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar2");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
         }
-    }
-</script>
+    </script>
 
-</body>
+</div>
 
 
 
