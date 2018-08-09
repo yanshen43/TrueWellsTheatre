@@ -1,0 +1,63 @@
+<body>
+
+<div id="head2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3 col-md-2">
+                <h1 id="logo" class="text-left">
+                    <img src="images/真实井logo.png" class="headerlogo" alt="">
+                </h1>
+            </div>
+            <div class="col-xs-9 col-md-10">
+                <h1 id="header-word">
+                    <span class="title2">真实井戏剧工作室</span></br>
+                    <span class="engtitle2">True Wells Theatre Studio</span>
+                </h1>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div id="navbar2" class="navbar2 navbar-inverse navbar-default">
+    <a href="index.html">主页Home</a>
+    <div class="dropdown2">
+        <button class="dropbtn2">简介About</button>
+        <div class="dropdown2-content">
+            <a href="introduce.html">工作室简介Studio</a>
+            <a href="team.html">团队成员Team</a>
+        </div>
+    </div>
+    <a href="production.html">项目Production</a>
+    <a href="share.html">故事Share</a>
+    <a href="contact.html">联系Contact</a>
+</div>
+
+
+<script>
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    var navbar = document.getElementById("navbar2");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+</body>
+
+
+
+
+
+
+

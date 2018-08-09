@@ -1,0 +1,670 @@
+html, body. div{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+
+/*.header-子页{*/
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*top:0;*/
+    /*left:0;*/
+    /*margin: 0 auto;*/
+    /*z-index: 10;*/
+
+/*}*/
+
+
+.container{
+    position: relative;
+}
+
+
+/*********************************************************************
+
+
+                                    HEADER-2
+
+
+**********************************************************************/
+
+
+#head2 {
+    background:  url(../../images/header.png) center;
+    background-size: cover;
+    color: #7C7C7C;
+    padding: 30px 0 35px 0;
+    height: 380px;
+    width:100%;
+}
+#head2 img.headerlogo {
+    display:block;
+    width: 80%;
+    height:auto;
+    margin:50% auto;
+    margin-left: 40%;
+
+}
+
+
+#head2 .title2 {
+    margin-left: 2%;
+    font-family: ".PingFang-SC-Regular", sans-serif;
+    /*font-size: 64px;*/
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    max-width: 30%;
+    font-size: 8vmin;
+
+}
+#head2 .engtitle2 {
+    display: inline-block;
+    margin-left: 2%;
+    height: 57px;
+    font-family: ".PingFang-SC-Regular", sans-serif;
+    /*font-size: 41px;*/
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    font-size: 5.5vmin;
+
+}
+
+
+#header-word{
+    margin-top: 10%;
+}
+
+
+
+/*********************************************************************
+
+
+                            Navigation in header
+
+
+**********************************************************************/
+
+
+
+#navbar2 {
+    background-color: #333;
+    z-index:999;
+    width: 100%;
+    margin-top: 0px !important;
+    margin-bottom: 0px  !important;
+    border:none !important;
+}
+
+#navbar2 a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #6b998d;
+    font-size: 16px;
+    font-family: ".PingFang-SC-Regular", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    background-color: #ffffff;
+    width: 20%;
+    height:52px  !important;
+    float: left;
+    padding: 15px 15px;
+    border-bottom: solid;
+    border-bottom-color: #D3D3D3;
+    border-bottom-width: thin;
+}
+
+#navbar2 a:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.dropdown2 {
+    float:left;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.dropdown2 .dropbtn2 {
+    /*position: relative;*/
+    display: inline-block;
+    text-transform: uppercase;
+    color: #6b998d;
+    font-size: 16px;
+    font-family: ".PingFang-SC-Regular", sans-serif;
+    font-weight: 300;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    width: 100%;
+    height:52px  !important;
+    border-bottom: solid;
+    border-bottom-color: #D3D3D3;
+    border-bottom-width: thin;
+}
+
+.navbar2 a:hover, .dropdown2:hover .dropbtn2 {
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.dropdown2-content {
+    min-width: 100%;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+
+.dropdown2-content a {
+    min-width: 100%;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #6b998d;
+    font-size: 16px;
+    font-family: ".PingFang-SC-Regular", sans-serif;
+    font-weight: 300;
+
+}
+
+.dropdown2-content a:hover {
+    background-color: #000000;
+}
+.dropdown2:hover .dropdown2-content {
+    display: block;
+}
+.dropdown2:hover .dropbtn2 {
+    color: #fff;
+    background-color: #000;
+}
+
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+/*********************************************************************
+
+
+                                    FOOTER
+
+
+**********************************************************************/
+
+footer {
+    margin-top: 100px;
+    background-color: #6ca49a;
+    padding: 50px 0px;
+    width:100%;
+    color: #999;
+}
+
+footer .logo-footer{
+    padding-left: 10%;
+    padding-top: 30px;
+    max-width:calc(100vw*0.5);
+    width: auto;
+
+}
+
+footer .Bitmap-footer{
+    padding-left: 10%;
+    margin-top: 40px;
+    max-width:calc(100vw*0.4);
+    width: auto;
+}
+
+
+footer .widget-title{
+    font-size: 16px;
+    font-family: ".PingFang-SC-Regular", sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+
+}
+
+footer .widget-body{
+    font-family: ".PingFang-SC-Light", sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+footer .join-us{
+    padding-left: 25%;
+    padding-top: 30px;
+}
+
+footer .contact-info{
+    padding-top: 30px;
+}
+
+
+.row:before, .row:after {
+    display: flex !important;
+}
+
+.follow-me-icons {
+    font-size: 36px;
+    display: inline-block;
+}
+.follow-me-icons i {
+    padding-left: 20px;
+}
+
+.fa-facebook-square{
+    color: #ffffff;
+}
+
+.fa-twitter-square{
+    color: #ffffff;
+}
+
+.fa-instagram{
+    color: #ffffff;
+}
+
+
+/* Max page width
+/////////////////////////////////////////////////////////////////////*/
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1080px;
+    }
+}
+
+
+
+
+
+/*********************************************************************
+
+
+                                    INTRODUCE
+
+
+**********************************************************************/
+
+
+.content-intro{
+    position: relative;
+    margin-top: 170px;
+}
+
+#introduce-engtitle{
+    margin-top: 6%;
+    margin-left: 7%;
+    width: 155px;
+    height: 18px;
+    font-family: ".PingFang-SC-Regular", sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+#introduce-title{
+    margin-top: 0;
+    margin-left: 7%;
+    width: 160px;
+    height: 28px;
+    font-family: ".PingFang-SC-Regular", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+#intro-dsp{
+    margin-left: 7%;
+    margin-right: 6%;
+    font-size: 16px;
+    font-family: ".PingFang-SC-Medium", sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+
+/*********************************************************************
+
+
+                                    TEAM
+
+
+**********************************************************************/
+
+
+.content-team{
+    position: relative;
+    margin-top: 170px;
+}
+
+.jiawen{
+    display: block;
+    margin: auto;
+    width:95%;
+    height: auto;
+    padding-bottom: 7%;
+}
+
+.yuhan{
+    display: block;
+    margin: auto;
+    width:95%;
+    height: auto;
+    padding-bottom: 7%;
+}
+
+.shunyao{
+    display: block;
+    margin: auto;
+    width:95%;
+    height: auto;
+}
+
+
+.jiawen-intro{
+    position: absolute;
+    margin:auto;
+    font-size: 16px;
+    font-weight: 300;
+    top: 10%;
+    left: 38%;
+    color: #000000;
+    width:55%;
+    font-family: ".PingFang-SC-Light", sans-serif;
+    line-height: 1.56;
+}
+
+
+.yuhan-intro{
+    position: absolute;
+    margin:auto;
+    left:38%;
+    top:10%;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    width:55%;
+    max-font-size: 20px;
+    line-height: 1.56;
+    font-family: ".PingFang-SC-Light", sans-serif;
+}
+
+.shunyao-intro{
+    position: absolute;
+    margin: auto;
+    left:38%;
+    top:12%;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    width:55%;
+    line-height: 1.56;
+    max-font-size: 20px;
+    font-family: ".PingFang-SC-Light", sans-serif;
+}
+
+
+
+
+/*********************************************************************
+
+
+                           PRODUCTION
+
+
+**********************************************************************/
+
+
+.beforeIntro{
+    margin-top: 180px;
+    position: relative;
+    margin-left: 7%;
+}
+
+.prod-jing{
+    font-family: ".PingFang-SC-Light", sans-serif;
+    font-size: 72px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #6b998d;
+    margin-left: 0;
+    margin-bottom:0;
+}
+
+.prod-period{
+    font-family: ".PingFang-SC-Light", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #6b998d;
+}
+
+
+.剧本介绍{
+    margin-top: 5% ;
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 86%;
+}
+
+#剧本介绍-title{
+    font-family: ".PingFang-SC-Light", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+
+}
+#prod-words{
+    margin-top: 20px;
+    font-family: ".PingFang-SC-Light", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+.video{
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+.peopelIntro{
+    margin-top: 5%;
+    width: 95%;
+    margin-left: 2%;
+}
+
+#主创人员{
+    font-size: 20px;
+    font-family: ".PingFang-SC-Light", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 5%;
+    padding-left: 4px;
+
+}
+
+.column {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    padding-top: 2%;
+    padding-left: 6.2%;
+    padding-right: 5%;
+    overflow: hidden;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 72%;
+    width: 66%;
+    left: 18.8%;
+    top: 8%;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+    opacity: 1;
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+    top: 70%;
+    left: 50%;
+    opacity: 1;
+}
+
+.content-details p{
+    font-family: ".PingFang-SC-Light", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 1.57;
+    text-align: left;
+    margin-left: 20%;
+}
+
+/*********************************************************************
+
+
+                           SHARE
+
+
+**********************************************************************/
+
+
+.story-content{
+    margin-top: 180px;
+    position: relative;
+    margin-bottom: 12%;
+}
+
+.story{
+    display: block;
+    margin: auto;
+    width:50%;
+
+}
+
+.Bitmap-story{
+    padding-top: 1%;
+    max-width: 130px;
+    height: auto;
+    display: block;
+    margin: auto;
+    width:50%;
+
+}
+
+/*********************************************************************
+
+
+                           CONTACT
+
+
+**********************************************************************/
+
+
+.contact-content{
+    margin-top: 180px;
+    position: relative;
+    margin-bottom: 12%;
+    text-align: center;
+}
+
+.emailme{
+    font-family: ".PingFang-SC-Light", sans-serif;
+    font-size: 25px;
+}
+
+.wechat-contact{
+    font-family: ".PingFang-SC-Light", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #6b998d;
+
+}
+
+.emailme p{
+    position: center;
+    color: #6b998d;
+    font-family: ".PingFang-SC-Light", sans-serif;
+}
+
