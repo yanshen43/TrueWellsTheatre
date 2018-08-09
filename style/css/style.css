@@ -94,21 +94,17 @@ body{
 
 
 
-
-
-.navbar2{
+.navbar{
     width: 100%;
     margin-top: 0px !important;
     margin-bottom: 0px  !important;
     border:none !important;
     font-family: ".PingFang-SC-Regular", sans-serif;
-    z-index:999;
 }
 
 
-.navbar2 a
+.navbar a
 {
-    position: relative;
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
@@ -121,14 +117,14 @@ body{
     width: 20%;
     height:52px  !important;
     float: left;
-    padding: 0;
+    padding: 15px 15px;
     border-bottom: solid;
     border-bottom-color: #D3D3D3;
     border-bottom-width: thin;
 }
 
 
-.dropdown2 {
+.dropdown {
     position: relative;
     float:left;
     display: inline-block;
@@ -137,7 +133,7 @@ body{
     background-color: white;
 }
 
-.dropdown2 .dropbtn2 {
+.dropdown .dropbtn {
     position: relative;
     display: inline-block;
     text-transform: uppercase;
@@ -155,13 +151,13 @@ body{
     border-bottom-width: thin;
 }
 
-.navbar2 a:hover, .dropdown2:hover .dropbtn2 {
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: black;
     color: #ffffff;
     text-decoration: none;
 }
 
-.dropdown2-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #ffffff;
@@ -170,8 +166,7 @@ body{
     z-index: 1;
 }
 
-.dropdown2-content a {
-
+.dropdown-content a {
     width:100%;
     background-color: white;
     text-decoration: none;
@@ -184,13 +179,13 @@ body{
 
 }
 
-.dropdown2-content a:hover {
+.dropdown-content a:hover {
     background-color: #000000;
 }
-.dropdown2:hover .dropdown2-content {
+.dropdown:hover .dropdown-content {
     display: block;
 }
-.dropdown2:hover .dropbtn {
+.dropdown:hover .dropbtn {
     color: #fff;
     background-color: #000;
 }
