@@ -27,45 +27,10 @@
 <body>
 
 <header id="header2">
-    <div class="sub-header">
-        <div id="head2">
-            <img src="images/header-logo.png" class="headerlogo" alt="">
-        </div>
-
-
-        <div id="navbar2" class="navbar2 navbar-inverse navbar-default navbar-xs">
-            <a href="index.html">主页Home</a>
-            <div class="dropdown2">
-                <button class="dropbtn2">简介About</button>
-                <div class="dropdown2-content">
-                    <a href="introduce.html">工作室简介Studio</a>
-                    <a href="team.html">团队成员Team</a>
-                </div>
-            </div>
-            <a href="production.html">项目Production</a>
-            <a href="share.html">故事Share</a>
-            <a href="contact.html">联系Contact</a>
-        </div>
-
-
-    </div>
-
-
     <script>
-        window.onscroll = function () {
-            myFunction()
-        };
-
-        var navbar = document.getElementById("navbar2");
-        var sticky = navbar.offsetTop;
-
-        function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
-            }
-        }
+        $(function () {
+            $("#header2").load("header.html");
+        });
     </script>
 </header>
 
@@ -73,7 +38,7 @@
 <section class="contact-content">
     <div class="emailme">
         <p>发送邮件：
-            <a href="Mailto:ghsau@163.com">点我发邮件</a>
+        <a href="Mailto:ghsau@163.com">点我发邮件</a>
         </p>
     </div>
 
@@ -85,52 +50,14 @@
 
 
 <footer id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6 col-md-6">
-                <div class="logo">
-                    <img src="images/logo-footer.png" class="logo-footer" alt="">
-                </div>
-                <div>
-                    <img src="images/Bitmap.png" class="Bitmap-footer" alt="">
-                    <span class="follow-me-icons">
-                        <a href="https://www.facebook.com/templatemo" target="_parent"><i class="fa fa-facebook-square"
-                                                                                          style="font-size:30px"></i></a>
-                        <a href="https://www.google.com/+templatemo" target="_blank"><i class="fa fa-twitter-square"
-                                                                                        style="font-size:30px"></i></a>
-                        <a href="https://www.linkedin.com/in/shuoniu89/"><i class="fa fa-instagram"
-                                                                            style="font-size:30px"></i></a>
-                    </span>
-                </div>
-            </div>
-
-            <!--<div class="vertical-line" style="height: 45px;"></div>-->
-
-            <div class="col-xs-3 col-md-3">
-                <div class="join-us">
-                    <h4 class="widget-title">加入我们</h4>
-                    <div class="widget-body">
-                        <p>舞台监督</p>
-                        <p>舞美</p>
-                        <p>声音设计</p>
-                        <p>服装设计</p>
-                        <p>演员</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-3 col-md-3">
-                <div class="contact-info">
-                    <h4 class="widget-title">联系我们</h4>
-                    <div class="widget-body">
-                        <p>truewellstheatre@163.com</p>
-                        <p>上海，中国</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 </footer>
+
+<script>
+    $(function () {
+        $("#footer").load("footer.html");
+    });
+</script>
 
 
 </body>
