@@ -1,4 +1,4 @@
-html, body. div{
+body{
     margin: 0 !important;
     padding: 0 !important;
     width: 100%;
@@ -302,6 +302,7 @@ footer .contact-info{
         max-width: 1080px;
     }
 }
+
 
 
 
