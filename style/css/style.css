@@ -108,6 +108,7 @@ body{
 
 .navbar2 a
 {
+    position: relative;
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
@@ -115,15 +116,12 @@ body{
     font-size: 16px;
     font-family: ".PingFang-SC-Regular", sans-serif;
     font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
     text-align: center;
     background-color: #ffffff;
     width: 20%;
     height:52px  !important;
     float: left;
-    padding: 15px 15px;
+    padding: 0;
     border-bottom: solid;
     border-bottom-color: #D3D3D3;
     border-bottom-width: thin;
@@ -173,6 +171,7 @@ body{
 }
 
 .dropdown2-content a {
+
     width:100%;
     background-color: white;
     text-decoration: none;
