@@ -40,7 +40,7 @@ body{
     /*margin:50% auto;*/
     /*margin-left: 40%;*/
     position: relative;
-    padding-top: 6%;
+    padding-top: 8%;
     margin-left: 12%;
 
 }
@@ -118,7 +118,7 @@ body{
     width: 20%;
     height:52px  !important;
     float: left;
-    /*padding: 15px 15px;*/
+    padding-top: 15px;
     border-bottom: solid;
     border-bottom-color: #D3D3D3;
     border-bottom-width: thin;
@@ -543,7 +543,7 @@ footer .contact-info{
 }
 
 /* Clearfix (clear floats) */
-.row::after {
+.row-production::after {
     content: "";
     clear: both;
     display: table;
