@@ -34,16 +34,19 @@ html, body. div{
     background:  url(../../images/header.png) center;
     background-size: cover;
     color: #7C7C7C;
-    padding: 30px 0 35px 0;
+    padding: 100px 0 35px 0;
     height: 380px;
     width:100%;
 }
 #head2 img.headerlogo {
-    display:block;
-    width: 80%;
-    height:auto;
-    margin:50% auto;
-    margin-left: 40%;
+    /*display:block;*/
+    /*width: 80%;*/
+    /*height:auto;*/
+    /*margin:50% auto;*/
+    /*margin-left: 40%;*/
+    position: relative;
+    padding-top: 2%;
+    margin-left: 12%;
 
 }
 
@@ -80,7 +83,8 @@ html, body. div{
 
 
 #header-word{
-    margin-top: 10%;
+    margin-top: 8%;
+    padding-left: 18%;
 }
 
 
