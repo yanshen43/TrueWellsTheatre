@@ -266,6 +266,9 @@ footer .contact-info{
 }
 
 
+footer .row{
+    min-width:100%;
+}
 .row:before, .row:after {
     display: flex !important;
 }
