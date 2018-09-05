@@ -570,13 +570,13 @@ footer .contact-info{
 
 
 .column {
-    position: relative;
     float: left;
-    width: 20%;
+    width: 33.3%;
+    left:7%;
+    padding:7%;
     padding-top: 2%;
-    padding-left: 7%;
-    padding-right: 7%;
-    /*overflow: hidden;*/
+    /*padding-left: 7%;*/
+     overflow: hidden;
 
 }
 
@@ -591,9 +591,9 @@ footer .contact-info{
     background: rgba(0,0,0,0.7);
     position: absolute;
     height: 70%;
-    width: 58%;
-    left: 21%;
-    top: 9%;
+    width: 33%;
+    /*left: 7%;*/
+    /*top: 9%;*/
     bottom: 0;
     right: 0;
     opacity: 0;
