@@ -560,23 +560,25 @@ footer .contact-info{
 .row-production{
     text-align: center;
     width: 100%;
-    display: inline-block;
 
 }
 
 .content-image{
     width: 100%;
+    position: relative;
+    display: block;
 }
 
 
 .column {
     float: left;
-    /*width: 33.3%;*/
+    width: 33.3%;
     left:7%;
-    /*padding:7%;*/
+    padding:7%;
     padding-top: 2%;
-    padding-left: 7%;
-     overflow: hidden;
+    padding-left: 2%;
+    overflow: hidden;
+    position: relative;
 
 }
 
@@ -592,8 +594,9 @@ footer .contact-info{
     position: absolute;
     height: 70%;
     width: 33%;
-    /*left: 7%;*/
-    /*top: 9%;*/
+    left: 7%;
+    top: 9%;
+
     bottom: 0;
     right: 0;
     opacity: 0;
