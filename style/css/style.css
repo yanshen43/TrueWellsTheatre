@@ -123,7 +123,8 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     color: #6b998d;
-    font-size: 16px;
+    font-size:16px;
+    max-font-size: 16px;
     font-family: ".PingFang-SC-Regular", sans-serif;
     font-weight: 300;
     text-align: center;
@@ -167,7 +168,8 @@ body{
     text-transform: uppercase;
     text-align: center;
     color: #6b998d;
-    font-size: 16px;
+    font-size:16px;
+    max-font-size: 16px;
     font-family: ".PingFang-SC-Regular", sans-serif;
     font-weight: 300;
     background-color: inherit;
@@ -208,7 +210,8 @@ body{
     display: block;
     text-align: center;
     color: #6b998d;
-    font-size: 16px;
+    font-size:16px;
+    max-font-size: 16px;
     font-family: ".PingFang-SC-Regular", sans-serif;
     font-weight: 300;
 
@@ -228,7 +231,7 @@ body{
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-    .navbar2 a:not(:first-child), .dropdown .dropbtn {
+    .navbar2 a:not(:first-child), .dropdown2 .dropbtn2 {
         display: none;
     }
     .navbar2 a.icon {
@@ -251,9 +254,9 @@ body{
         display: block;
         text-align: left;
     }
-    .navbar2.responsive .dropdown {float: none;}
-    .navbar2.responsive .dropdown-content {position: relative;}
-    .navbar2.responsive .dropdown .dropbtn {
+    .navbar2.responsive .dropdown2 {float: none;}
+    .navbar2.responsive .dropdown2-content {position: relative;}
+    .navbar2.responsive .dropdown2 .dropbtn2 {
         display: block;
         width: 100%;
         text-align: left;
