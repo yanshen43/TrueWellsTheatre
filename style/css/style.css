@@ -158,7 +158,6 @@ body{
 }
 
 .dropdown2 .dropbtn2 {
-    /*position: relative;*/
     display: inline-block;
     text-transform: uppercase;
     text-align: center;
@@ -199,7 +198,7 @@ body{
 
 
 .dropdown2-content a {
-    width:inherit;
+    width:100%;
     background-color: white;
     text-decoration: none;
     display: block;
