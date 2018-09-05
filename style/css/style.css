@@ -522,6 +522,7 @@ footer .contact-info{
 }
 
 #剧本介绍-title{
+    width: 100%;
     font-family: ".PingFang-SC-Light", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -544,8 +545,7 @@ footer .contact-info{
 
 .peopelIntro{
     margin-top: 5%;
-    width: 95%;
-    margin-left: 2%;
+    width: 100%;
 }
 
 #主创人员{
@@ -557,6 +557,16 @@ footer .contact-info{
     padding-left: 4px;
 
 }
+
+.row-production{
+    text-align: center;
+    width: 100%;
+}
+
+.content-image{
+    display: inline-block;
+}
+
 
 .column {
     position: relative;
