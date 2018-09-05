@@ -614,20 +614,12 @@ footer .contact-info{
 
 .column {
     float: left;
-    width: 33%;
+    width: 32.5%;
     left:7%;
-    padding-right: 13%;
+    padding-right: 12%;
     top: 20px;
     overflow: hidden;
     position: relative;
-
-    /*position: relative;*/
-    /*float: left;*/
-    /*width: 33.3%;*/
-    /*padding-top: 2%;*/
-    /*left:7%;*/
-    /*padding-right: 10%;*/
-    /*overflow: hidden;*/
 
 }
 
@@ -643,7 +635,7 @@ footer .contact-info{
     position: absolute;
     top:0;
     left:0;
-    width:60.5%;
+    width:63%;
     height:77.5%;
     opacity: 0;
     -webkit-transition: all 0.4s ease-in-out 0s;
@@ -686,7 +678,7 @@ footer .contact-info{
     font-weight: 300;
     line-height: 1.57;
     text-align: left;
-    margin-left: 4%;
+    margin-left: 2%;
 }
 
 /*********************************************************************
