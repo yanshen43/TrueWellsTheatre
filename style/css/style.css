@@ -267,9 +267,6 @@ footer .contact-info{
 }
 
 
-footer .row{
-    min-width:100%;
-}
 .row:before, .row:after {
     display: flex !important;
 }
@@ -299,7 +296,7 @@ footer .row{
 /////////////////////////////////////////////////////////////////////*/
 /*@media (min-width: 1200px) {*/
     /*.container {*/
-        /*max-width: 1080px;*/
+        /*max-width: 100%;*/
     /*}*/
 /*}*/
 
