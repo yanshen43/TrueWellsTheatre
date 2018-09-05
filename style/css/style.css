@@ -7,7 +7,7 @@ body{
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0 ;
 }
 
 .div{
@@ -119,11 +119,11 @@ body{
     font-weight: 300;
     text-align: center;
     background-color: #ffffff;
-    width: 20%;
-    height:36px  !important;
+    width: 17.6%;
+    /*height:36px  !important;*/
     float: left;
-    padding-top: 15px;
-    /*padding: 15px 15px;*/
+    /*padding-top: 15px;*/
+    padding: 15px 15px;
     border-bottom: solid;
     border-bottom-color: #D3D3D3;
     border-bottom-width: thin;
@@ -164,10 +164,12 @@ body{
     border: none;
     outline: none;
     width: 100%;
-    height:52px  !important;
+    /*height:52px  !important;*/
     border-bottom: solid;
     border-bottom-color: #D3D3D3;
     border-bottom-width: thin;
+    padding: 15px 15px;
+
 }
 
 .navbar2 a:hover, .dropdown2:hover .dropbtn2 {
